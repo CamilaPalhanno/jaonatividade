@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sala de Bate-papo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-room">
+    <h1>Sala de Bate-papo</h1>
+    <div class="chat-window" id="chat-window"></div>
+    <form id="message-form">
+      <input type="text" id="user-input" placeholder="Digite sua mensagem">
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
